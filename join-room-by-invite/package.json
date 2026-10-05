@@ -1,0 +1,15 @@
+{
+  "name": "@centralcity-examples/join-room-by-invite",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Join a Central City room from an invite link as a guest and print the latest messages.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node join.mjs",
+    "test": "node --test test/smoke.test.mjs"
+  }
+}
