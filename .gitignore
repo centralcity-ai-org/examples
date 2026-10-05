@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+.env
+.env.*
+# Room credentials written by join-room-by-invite: secrets, never commit them.
+.central-city-credential.json
+*.credential.json
